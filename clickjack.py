@@ -29,7 +29,7 @@ html2 = '''
 <html>
 	<div style="opacity: 1.0; left: 10px; top: 50px; background: PapayaWhip; font-weight: bold;">
 		<center><a href="#">THIS IS AN EXAMPLE CLICKJACKING IFRAME AND LINK</a>
-		<br>(normally invisibile</center>
+		<br>(normally invisible)</center>
 	</div>
 </html>
 '''
