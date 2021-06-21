@@ -8,7 +8,7 @@ Attempts to render the target site in an iframe and places another iframe on top
 python3
 
 ### Usage
-`python clickjack.py <url>`
+`python3 clickjack.py <url>`
 
 ### Output
 Creates two html pages: 
