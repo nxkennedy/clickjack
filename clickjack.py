@@ -3,8 +3,8 @@ import sys
 import webbrowser
 
 if len(sys.argv) != 2:
-	print '\n[+] Description: %s can quickly verify if a web page is vulnerable to clickjacking' % __file__
-	print '[+] Usage: python %s <url>\n' % __file__
+	print('\n[+] Description: %s can quickly verify if a web page is vulnerable to clickjacking' % __file__)
+	print('[+] Usage: python %s <url>\n' % __file__)
 	exit(0)
 
 url = sys.argv[1]
@@ -44,4 +44,4 @@ with open(cjt, 'w') as t, open (cja, 'w') as a:
 
 webbrowser.open(localurl)
 
-print '\n[+] Test Complete!'
+print('\n[+] Test Complete!')
