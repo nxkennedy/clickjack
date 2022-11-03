@@ -13,7 +13,7 @@ html = '''
 <html>
 	<head>
 		<title>Clickjacking Test Page</title>
-	</head>
+	</head> 
 
 	<body>
 		<h1>Clickjacking Test Results</h1>
@@ -42,6 +42,6 @@ with open(cjt, 'w') as t, open (cja, 'w') as a:
 	t.write(html)
 	a.write(html2)
 
-webbrowser.open(localurl)
+webbrowser.open(localurl) #online Clickjacking PoC Scanner: https://clickjacker.io/
 
 print('\n[+] Test Complete!')
